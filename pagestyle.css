@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding-top: 60px;
+    background-color: #000000;
+    color: #1e0505;
+}
+
+nav {
+    background-color: #bb0a0a;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+   ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+   ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+   ul li a {
+    color: #faeeee;
+    text-decoration: dotted;
+    font-size: 30px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+   ul li a:hover {
+    background-color: #da3838;
+    border-radius: 5px;
+  }
+}
+
+
+
+section {
+    padding: 50px 20px 40px;
+    min-height: 80vh;
+    text-align: center;
+}
+
+#home {
+    background-color: #e81c1c3f;
+    background-image: url('https://cdn.wallpapersafari.com/59/18/CQmiqv.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: hsl(0, 42%, 59%); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+
+   h1 {
+    color: #faeeee;
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px #7e5656;
+  }
+
+   h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #7e5656;
+    color: #faeeee;
+  }
+}
+
+
+
+#about {
+    background-color: #b62d2d;
+    color: #faeeee;
+
+
+  h2 {
+    color: #faeeee;
+    font-size: 36px;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+
+   p {
+    text-align: left;
+    font-size: 25px;
+    max-width: 600px;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .about-image {
+    max-width: 300px;
+    border-radius: 0%;
+    height: auto;
+  }
+}
+
+#skills {
+    background-color: #8b0a0a;
+   
+    h2 {
+    color: #faeeee;
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 24px auto;
+    text-align: left;
+  }
+
+  .skills-list li {
+    color: #faeeee;
+    font-size: 24px;
+    margin-bottom: 12px;
+    padding: 10px;
+    background-color: #a11515;
+    border: 1px solid #da3838;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  } 
+}
+
+#education {
+    background-color: #8b0a0a;
+
+    h2 {
+    color: #faeeee;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .education-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #a11515;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 2px solid #da3838; /* Added table border */
+  }
+
+  .education-table th, .education-table td {
+    padding: 15px;
+    text-align: left;
+    color: #faeeee;
+    border: 1px solid #da3838; /* Added cell borders */
+  }
+
+  .education-table th {
+    background-color: #bb0a0a;
+    font-size: 30px;
+  }
+
+  .education-table td {
+    font-size: 25px;
+  }
+
+  .education-table tr:hover {
+    background-color: #c92020;
+  }
+}
+
+#certificates {
+    background-color: #b62d2d;
+
+   h2 {
+    color: #faeeee;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+   h3 {
+    color: #faeeee;
+    font-size: 30px;
+    text-align: start;
+  }
+
+   ul li {
+    color: #faeeee;
+    font-size: 25px;
+    text-align: start;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+   a {
+    color: #faeeee;
+  }
+
+}
+
+
+#contact {
+    background-color: #8b0a0a;
+
+  h2 {
+    color: #faeeee;
+    font-size: 36px;
+  }
+
+  li {
+    color: #faeeee;
+    text-align: start;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  a {
+    color: #faeeee;
+  }
+   h2 {
+    color: #faeeee;
+  }
+
+   li {
+    color: #faeeee;
+    text-align: start;
+    margin-bottom: 10px;
+    font-size: 27px;
+  }
+
+  a {
+    color: #faeeee;
+ }
+}
